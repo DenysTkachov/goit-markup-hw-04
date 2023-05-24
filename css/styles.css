@@ -113,7 +113,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-main);
-  display: block; 
+  display: block;
   gap: 40px;
 }
 
@@ -130,7 +130,6 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  
 }
 
 .header-container {
@@ -152,7 +151,7 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: var(--background-color);  
+  color: var(--background-color);
   max-width: 496px;
   text-align: center;
   margin: 0 auto;
@@ -176,10 +175,9 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
-  margin: 0 auto;  
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
-
 
 .main-contain-btn:hover,
 .main-contain-btn:focus {
@@ -204,8 +202,8 @@ img {
   margin-bottom: 8px;
 }
 
-.advantages-list { 
-  display: flex;  
+.advantages-list {
+  display: flex;
   gap: 24px;
 }
 
@@ -256,6 +254,8 @@ img {
 .team-item {
   background-color: var(--background-color);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-title {
@@ -339,7 +339,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5; 
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--text-logo-color);
@@ -356,6 +356,8 @@ img {
   background-color: var(--color-link);
   color: var(--background-color);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-list-first {
@@ -393,10 +395,15 @@ img {
   padding: 24px 0;
 }
 
-
 .description {
   border: 1px solid var(--color-border);
   padding: 32px 16px;
   border-top: none;
 }
 
+.portfolio-item:hover,
+.portfolio-item:focus {
+  border: 1px solid var(--background-btn-kolor);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
