@@ -310,7 +310,7 @@ img {
 .team-soc-list {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 24px;
 }
 
 .team-soc-item {
@@ -325,6 +325,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--color-link);
+
+}
+
+.team-soc-icon {
+  fill: var(--background-btn-kolor);
 }
 
 /* Customers */
