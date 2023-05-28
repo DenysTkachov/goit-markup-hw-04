@@ -521,7 +521,7 @@ img {
   color: var(--color-main);
 }
 
-.portfolio.link {
+.portfolio.item {
   display: block;
   text-decoration: none;
   padding: 24px 0;
