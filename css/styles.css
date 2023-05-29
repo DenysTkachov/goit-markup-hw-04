@@ -377,8 +377,8 @@ img {
 }
 .customers-icon:hover,
 .customers-icon:focus {
-  border-color: #404bbf;
-  color: #404bbf; 
+  border-color: var(--color-link);
+  color: var(--color-link); 
 }
 .customers-icon-client {
   fill: currentColor;
@@ -458,7 +458,7 @@ img {
 }
 
 .social-icon {
-  fill: #f4f4fd;
+  fill: var(--background-btn-kolor);
 }
 
 /* <!-- Portfolio --> */
