@@ -530,8 +530,8 @@ img {
   color: var(--color-main);
 }
 .portfolio.link {
-  /* display: block;
-  text-decoration: none;
+  display: block;
+  /* text-decoration: none;
   padding: 24px 0; */
 }
 .description {
